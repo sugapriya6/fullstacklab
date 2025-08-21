@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #222;
+  padding: 10px;
+  z-index: 1000;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about, .projects, .contact {
+  padding: 60px 20px;
+  min-height: 100vh;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+}
+
+.about img {
+  width: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.projects .project-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.project-card {
+  width: 200px;
+  text-align: center;
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer {
+  background: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
